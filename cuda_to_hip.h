@@ -70,7 +70,7 @@
 #define cudaChannelFormatDesc  hipChannelFormatDesc
 #define cudaCreateChannelDesc  hipCreateChannelDesc
 // cudaMemcpyToArray is deprecated and removed from current HIP; uses are
-// rewritten to hipMemcpy2DToArray at the call site (see cudaImage.cu).
+// written as cudaMemcpy2DToArray instead (see cudaImage.cu).
 #define cudaMemcpy2DToArray    hipMemcpy2DToArray
 
 // ---- Texture objects ----
